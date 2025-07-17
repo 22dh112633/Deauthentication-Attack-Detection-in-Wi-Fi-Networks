@@ -1,0 +1,6 @@
+Lấy Token Bot Telegram
+-Tạo bot tại BotFather
+-Nhận token từ BotFather, thay vào TELEGRAM_BOT_TOKEN
+
+Lấy Chat ID Telegram
+-https://api.telegram.org/botYOUR_BOT_TOKEN/getUpdates
